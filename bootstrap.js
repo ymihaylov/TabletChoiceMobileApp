@@ -656,8 +656,14 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.viewport.WindowsPhone": [
     "Ext.viewport.WP"
   ],
+  "TabletChoice.controller.Menu": [],
   "TabletChoice.store.Categories": [],
-  "TabletChoice.view.Main": []
+  "TabletChoice.store.Items": [],
+  "TabletChoice.view.Main": [],
+  "TabletChoice.view.menu.CategoriesList": [],
+  "TabletChoice.view.menu.ItemsList": [],
+  "TabletChoice.view.menu.MenuTab": [],
+  "TabletChoice.view.order.OrderTab": []
 });
 
 Ext.ClassManager.addNameAliasMappings({
@@ -1378,9 +1384,23 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.viewport.Ios": [],
   "Ext.viewport.Viewport": [],
   "Ext.viewport.WindowsPhone": [],
+  "TabletChoice.controller.Menu": [],
   "TabletChoice.store.Categories": [],
+  "TabletChoice.store.Items": [],
   "TabletChoice.view.Main": [
     "widget.main"
+  ],
+  "TabletChoice.view.menu.CategoriesList": [
+    "widget.categorieslist"
+  ],
+  "TabletChoice.view.menu.ItemsList": [
+    "widget.itemslist"
+  ],
+  "TabletChoice.view.menu.MenuTab": [
+    "widget.menutab"
+  ],
+  "TabletChoice.view.order.OrderTab": [
+    "widget.ordertab"
   ]
 });
 
