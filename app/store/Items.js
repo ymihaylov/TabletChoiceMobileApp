@@ -18,5 +18,9 @@ Ext.define('TabletChoice.store.Items', {
                 categoryId: 1
             }
         }
+    },
+    loadCategory: function(categoryId){
+        this.getProxy().getExtraParams().categoryId = categoryId
+        this.load();
     }
 });

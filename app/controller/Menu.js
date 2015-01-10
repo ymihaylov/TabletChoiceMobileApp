@@ -4,13 +4,16 @@ Ext.define('TabletChoice.controller.Menu', {
     config: {
         refs: {
             mainWindow: 'main',
-            categoriesTab: 'menutab',
             toggleCategoriesButton: 'menutab titlebar button[action=toggleCategories]',
-            categoriesList: 'menutab categorieslist'
+            categoriesList: 'menutab categorieslist',
+            itemsList: 'menutab itemslist',
         },
         control: {
             toggleCategoriesButton: {
                 tap: 'onToggleCategoriesClick'
+            },
+            categoriesList: {
+                itemtap: 'onCategoryTap'
             }
         }
     },
@@ -22,5 +25,10 @@ Ext.define('TabletChoice.controller.Menu', {
         else{
             categoriesList.hide();
         }
+    },
+    onCategoryTap: function( component, index, target, record, e, eOpts ){
+        var categoryId = record.get('id'),
+            itemsStore = this.getItemsList().getStore();
+        itemsStore.loadCategory(categoryId);
     }
 });
