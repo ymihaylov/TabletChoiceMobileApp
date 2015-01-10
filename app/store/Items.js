@@ -12,7 +12,7 @@ Ext.define('TabletChoice.store.Items', {
         ],
         proxy: {
             type: 'direct',
-            directFn: Ext.rpc.Category.show,
+            directFn: 'Ext.rpc.Category.show',
             paramOrder: 'categoryId',
             extraParams:{
                 categoryId: 1

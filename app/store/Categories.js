@@ -8,7 +8,7 @@ Ext.define('TabletChoice.store.Categories', {
         fields: ['name', 'description'],
         proxy: {
             type: 'direct',
-            directFn: Ext.rpc.Category.index
+            directFn: 'Ext.rpc.Category.index'
         }
     }
 });

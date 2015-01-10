@@ -656,6 +656,7 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.viewport.WindowsPhone": [
     "Ext.viewport.WP"
   ],
+  "TabletChoice.DirectApi": [],
   "TabletChoice.controller.Menu": [],
   "TabletChoice.store.Categories": [],
   "TabletChoice.store.Items": [],
@@ -1384,6 +1385,7 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.viewport.Ios": [],
   "Ext.viewport.Viewport": [],
   "Ext.viewport.WindowsPhone": [],
+  "TabletChoice.DirectApi": [],
   "TabletChoice.controller.Menu": [],
   "TabletChoice.store.Categories": [],
   "TabletChoice.store.Items": [],

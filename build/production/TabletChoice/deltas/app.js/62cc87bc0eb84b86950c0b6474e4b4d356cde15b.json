@@ -1,0 +1,1 @@
+["function _d7ac9d44aeae26ec181b9b4781facbc4b9942378",50,571155,"Ext.Ajax.request({url:\"",571274,36,",params:{id:1},async:false,success:function(response){eval(response.responseText)}})}",572462,33,571404,116,"\"Ext.rpc.Category.index\"",571885,37,571579,234,"\"Ext.rpc.Category.show\"",571834,3675]

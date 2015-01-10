@@ -14,7 +14,8 @@ Ext.application({
     name: 'TabletChoice',
 
     requires: [
-        'Ext.MessageBox'
+        'Ext.MessageBox',
+        'TabletChoice.DirectApi'
     ],
 
     views: [

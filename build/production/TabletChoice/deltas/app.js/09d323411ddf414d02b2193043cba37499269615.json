@@ -1,0 +1,1 @@
+["function _d7ac9d44aeae26ec181b9b4781facbc4b9942378",50,571082,"DirectApi\",Ext.Base,{},0,0,0,0,0,0,[TabletChoice,\"DirectApi\"],function(){Ext.Ajax.request({url:\"/TabletChoice/public/rpc?javascript\",params:{id:1},async:false,success:function(response){eval(response.responseText)}})}",571663,33,571132,4109]
