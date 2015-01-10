@@ -1,0 +1,1 @@
+function _638cf6324505de4956b4c05f856ae27a3408a680(){};globalConfig={pathToServer:"http://localhost/TabletChoice/public/"};

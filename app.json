@@ -41,7 +41,12 @@
     "js": [
         {
             "path": "touch/sencha-touch.js",
+            "bundle": false,
             "x-bootstrap": true
+        },
+        {
+            "path": "config.js",
+            "remote": false
         },
         {
             "path": "bootstrap.js",

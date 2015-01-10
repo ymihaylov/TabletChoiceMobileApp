@@ -2,7 +2,7 @@ Ext.define('TabletChoice.DirectApi', {
     requires: ['Ext.direct.*']
 }, function () {
 	Ext.Ajax.request({
-	    url: '/TabletChoice/public/rpc?javascript',
+	    url: globalConfig.pathToServer + 'rpc?javascript',
 	    params: {
 	        id: 1
 	    },
