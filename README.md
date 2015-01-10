@@ -6,3 +6,8 @@ TabletChoice
 
 Сървърната част може да се намери тук:
 https://github.com/ymihaylov/TabletChoice
+
+Инструкции
+----------
+Копирайте файла config-sample.js в config.js
+В config.js попълнете необходимите данни така, че да съответстват на вашата конфигурация
