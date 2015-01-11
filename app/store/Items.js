@@ -19,7 +19,7 @@ Ext.define('TabletChoice.store.Items', {
                 if (value == ''){
                     return null;
                 }
-                return '€ ' + value;
+                return '&euro; ' + value;
             }}, 
             {name: 'quantity', type: 'float'}
         ],
