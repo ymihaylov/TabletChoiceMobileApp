@@ -1,0 +1,31 @@
+.x-list-item .description{
+	font-size: 0.75em; color: darkgray
+}
+.x-list-item.x-item-selected .description{
+	color: #ddd;
+}
+.x-list-item .items-list{
+	min-height: 100px;
+}
+.x-list-item .items-list img,
+.x-list-item .items-list div.noimg{
+	float: left; 
+	width: 100px; 
+	height: 100px; 
+	margin-right: 10px; 
+	background: #fff;
+}
+.x-list-item .items-list div.noimg{
+	border: 1px solid #ccc;
+}
+.item-price{
+	color: darkred;
+	display: inline-block;
+	width: 75px;
+	margin-right: 0.5em;
+}
+
+.x-list-item .description{
+	font-size: 0.75em; 
+	color: darkgray;
+}

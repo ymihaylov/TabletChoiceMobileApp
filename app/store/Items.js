@@ -8,13 +8,20 @@ Ext.define('TabletChoice.store.Items', {
         fields: [
             {name: 'name',  type: 'string'},
             {name: 'short_description',  type: 'string'},
-            {name: 'img_url', defaultValue: 'noimg.png', convert: function(value, record){
+            {name: 'img_url', convert: function(value, record){
                 if (value == ''){
                     return null;
                 }
                 return globalConfig.pathToServer + 'upload/items/thumbs/small/' +value;
             }}, 
-            {name: 'price', type: 'float'}
+            {name: 'price', type: 'float'},
+            {name: 'price_display', mapping: 'price', convert: function(value, record){
+                if (value == ''){
+                    return null;
+                }
+                return '€ ' + value.toFixed(2);
+            }}, 
+            {name: 'quantity', type: 'float'}
         ],
         proxy: {
             type: 'direct',

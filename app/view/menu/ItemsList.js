@@ -8,9 +8,14 @@ Ext.define('TabletChoice.view.menu.ItemsList', {
         store: 'Items',
         itemTpl : [
             '<div class="items-list">',
-                '<img src="{img_url}"/>',
-                '<p>{name}</p>',
-                '<span class="item-price">{price}</span>',
+                '<tpl if="img_url">',
+                    '<img src="{img_url}"/>',
+                '<tpl else>',
+                    '<div class="noimg"></div>',
+                '</tpl>',
+                '<h2>{name}</h2>',
+                '<span class="item-price-container">Price: <span class="item-price">{price_display}</span></span>',
+                '<span>Quantity: {quantity}gr</span>',
                 '<div class="description">{short_description}</div>',
             '<div>'
         ].join('')
