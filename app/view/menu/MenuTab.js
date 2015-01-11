@@ -3,7 +3,8 @@ Ext.define('TabletChoice.view.menu.MenuTab', {
 
     requires: [
         'TabletChoice.view.menu.CategoriesList',
-        'TabletChoice.view.menu.ItemsList'
+        'TabletChoice.view.menu.ItemsList',
+        'TabletChoice.view.menu.ItemDetails'
     ],
 
     xtype: 'menutab',

@@ -13,7 +13,7 @@ Ext.define('TabletChoice.view.menu.CategoriesList', {
         store: 'Categories',
         itemTpl : [
             '<p>{name}</p>',
-            '<div style="font-size: 0.75em; color: darkgray">{description}</div>'
+            '<div class="description">{description}</div>'
         ].join('')
 
     }

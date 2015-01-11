@@ -4,13 +4,14 @@ Ext.define('TabletChoice.view.menu.ItemsList', {
     xtype: 'itemslist',
 
     config: {
-        emptyText: 'No data found!',
+        emptyText: 'No items in theis category!',
         store: 'Items',
         itemTpl : [
-            '<div>',
+            '<div class="items-list">',
+                '<img src="{img_url}"/>',
                 '<p>{name}</p>',
-                '<span style="color: darkred">{price}<span>',
-                '<div style="font-size: 0.75em; color: darkgray">{short_description}</div>',
+                '<span class="item-price">{price}</span>',
+                '<div class="description">{short_description}</div>',
             '<div>'
         ].join('')
 

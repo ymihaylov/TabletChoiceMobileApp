@@ -658,10 +658,12 @@ Ext.ClassManager.addNameAlternateMappings({
   ],
   "TabletChoice.DirectApi": [],
   "TabletChoice.controller.Menu": [],
+  "TabletChoice.model.Item": [],
   "TabletChoice.store.Categories": [],
   "TabletChoice.store.Items": [],
   "TabletChoice.view.Main": [],
   "TabletChoice.view.menu.CategoriesList": [],
+  "TabletChoice.view.menu.ItemDetails": [],
   "TabletChoice.view.menu.ItemsList": [],
   "TabletChoice.view.menu.MenuTab": [],
   "TabletChoice.view.order.OrderTab": []
@@ -1387,6 +1389,7 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.viewport.WindowsPhone": [],
   "TabletChoice.DirectApi": [],
   "TabletChoice.controller.Menu": [],
+  "TabletChoice.model.Item": [],
   "TabletChoice.store.Categories": [],
   "TabletChoice.store.Items": [],
   "TabletChoice.view.Main": [
@@ -1394,6 +1397,9 @@ Ext.ClassManager.addNameAliasMappings({
   ],
   "TabletChoice.view.menu.CategoriesList": [
     "widget.categorieslist"
+  ],
+  "TabletChoice.view.menu.ItemDetails": [
+    "widget.itemdetails"
   ],
   "TabletChoice.view.menu.ItemsList": [
     "widget.itemslist"

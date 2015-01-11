@@ -6,8 +6,14 @@ Ext.define('TabletChoice.store.Items', {
     config:{
         autoLoad: true,
         fields: [
-            'name', 'short_description', 
-            {name: 'img_url', defaultValue: 'noimg.png'}, 
+            {name: 'name',  type: 'string'},
+            {name: 'short_description',  type: 'string'},
+            {name: 'img_url', defaultValue: 'noimg.png', convert: function(value, record){
+                if (value == ''){
+                    return null;
+                }
+                return globalConfig.pathToServer + 'upload/items/thumbs/small/' +value;
+            }}, 
             {name: 'price', type: 'float'}
         ],
         proxy: {
